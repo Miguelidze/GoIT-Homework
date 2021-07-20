@@ -1,0 +1,69 @@
+/* Базовые стили */
+:root {
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+  --link-text-color: #2196f3;
+  --main-text-family: roboto;
+  --main-text-weight: 400;
+  --white-color: #ffffff;
+  --hero-footer-background-color: #2f303a;
+}
+
+body {
+  background-color: var(--white-color);
+  color: var(--main-text-color);
+  font-family: var(--main-text-family);
+  font-weight: var(--main-text-weight);
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+header {
+  background-color: #ececec;
+  width: 1600px;
+  height: 80px;
+}
+.nav-list .contacts-list {
+}
+.hero {
+  background-color: black;
+  width: 1600px;
+  height: 600px;
+  top: 80px;
+  text-align: center;
+}
+.hero-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  color: var(--white-color);
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.logo {
+  color: var(--link-text-color);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  /* identical to box height */
+}
+.studio {
+  color: black;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  /* identical to box height */
+}
